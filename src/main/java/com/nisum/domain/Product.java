@@ -9,6 +9,9 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.UUID;
 
+import javax.annotation.Generated;
+import javax.persistence.GeneratedValue;
+
 @Table("products")
 public class Product implements Serializable{
 
